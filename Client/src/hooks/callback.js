@@ -1,11 +1,9 @@
 import React from 'react'
 
-function Callback(props) {
-
-  return (
+const Callback = props => (
     <div>
       Callback
     </div>
-  )};
+);
 
 export default Callback;

@@ -1,11 +1,9 @@
 import React from 'react'
 
-function PrivateComponent (props) {
-
-    return (
+const PrivateComponent = props => (
     <div>
       Private Component
     </div>
-)};
+);
 
 export default PrivateComponent;

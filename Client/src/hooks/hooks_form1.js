@@ -4,7 +4,7 @@ import * as FormReducer from '../store/reducers/form_reducer';
 import Context from '../utils/context';
 
 
-function HooksForm1() {
+const HooksForm1 = () => {
   const context = useContext(Context)
 
   const [valueChange, setValueChange] = useState('')
@@ -58,7 +58,7 @@ function HooksForm1() {
         <p>Change: {valueChange}</p>
         <p>Submit: {valueSubmit}</p>
         <br />
-
+        {context.prop4}
         <h3>React useReducer:</h3>
         <p>Change: {state.user_textChange}</p>
         <p>Submit: {state.user_textSubmit}</p>
